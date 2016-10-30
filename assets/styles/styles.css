@@ -1,0 +1,49 @@
+.socialIcons {
+	width: 100%;
+	max-width: 100px;
+	height: auto;
+	filter: grayscale(40%);
+	transition: 0.5s;
+}
+.socialIcons:hover, .socialIcons:active {
+	transition: 0.5s;
+	filter: grayscale(0%);
+}
+
+#aboutMeImage {
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+	margin-bottom: 10px;
+	border-bottom: 5px solid #99979c;
+
+}
+
+body {
+	background-image: url('../images/escheresque_@2X.png');
+	background-size: 46px 29px;
+	background-repeat: repeat;
+	display: flex;
+ 	min-height: 100vh;
+ 	min-width: 375px;
+ 	width: 100%;
+	flex-direction: column;
+	
+}
+
+.contentWrapper {
+	flex: 1;
+}
+
+
+.footer {
+	background-color: #2a2730;
+	color: #99979c;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    bottom: 0;
+    width: 100%;
+	text-align: center;
+
+
+}
