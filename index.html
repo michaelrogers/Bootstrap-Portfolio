@@ -3,74 +3,83 @@
 <head>
 	<title>About Me | Michael Rogers</title>
 	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 
 </head>
 <body>
-	<header>
-		<div class="headerWrapper">
-			<div class="nameBlock">
-				<h1>Michael Rogers</h1>
+	
+	<nav class="navbar navbar-default navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">Michael Rogers</a>
 			</div>
-			<nav>
-				<ul>
-					<li onClick="location.href='index.html'">
-						<span class="navLinkText navLinkActive">About Me</span>
-					</li>
-					<li onClick="location.href='portfolio.html'">
-						<span class="navLinkText">Portfolio</span>
-					</li>
-					<li onClick="location.href='contact.html'">
-						<span class="navLinkText">Contact</span>
-					</li>
-				</ul>
-			</nav>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="index.html">About Me</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
 		</div>
-	</header>
+	</nav>
+
+	
 	<div class ="container">
-		<section class="mainSectionContent">
-			<h2>About me</h2>
-			<hr />
-			<img alt="" class="inlineImage" src="assets/images/me.jpeg" />
-			<p>
-				I have a degree in Information Systems from Texas A&amp;M University. I love all things technology, which includes audio, arduino, robotics, VR, and web technologies.
-			</p>
-			<p>
-				I currently work as a assistant project manager at a software development company here in Houston and have experience providing QA for both web applications and games.
-			</p>
-			<p>
-				Since early this year, I have dedicating myself towards personal projects which include using vanilla JavaScript and frameworks like Meteor and React. By joining the bootcamp, I hope gain a deeper understanding of how web technologies interact and gain familiarity with some of the latest tools to make it into the industry.
-			</p>		
-		</section>
-		<aside class="sidebar">
-			<h3>Connect with me</h3>
-			<hr />
-			<div class="socialLinks">
-				<ul>
-					<li>
-						<div class="socialIconsContainer" onClick="location.href='http://github.com/michaelrogers'">
-							<img alt="GitHub" class="socialIcons" src="assets/images/github.svg" />
-						</div>
+			<div class="row">
+				<div class="col-md-8">
+			<div class="panel panel-default">
+			<div class="panel-body">
+			<div class="row">
+				<div class="col-xs-12"><h2>About me</h2></div>
+			</div>
+			<div class="row">
+			<section class="col-xs-12">
+
+				<img alt="" class="img-responsive img-rounded" src="assets/images/me.jpeg" />
+				<p>
+					I have a degree in Information Systems from Texas A&amp;M University. I love all things technology, which includes audio, arduino, robotics, VR, and web technologies.
+				</p>
+				<p>
+					I currently work as a assistant project manager at a software development company here in Houston and have experience providing QA for both web applications and games.
+				</p>
+				<p>
+					Since early this year, I have dedicating myself towards personal projects which include using vanilla JavaScript and frameworks like Meteor and React. By joining the bootcamp, I hope gain a deeper understanding of how web technologies interact and gain familiarity with some of the latest tools to make it into the industry.
+				</p>
+				
+				</section>
+			</div>
+		</div>
+		</div>
+		</div>
+		<aside class="col-md-4">
+			<div class="panel panel-default">
+			<div class="panel-heading">
+				
+				Connect with me
+				
+			</div>
+			<div class="panel-body">
+
+				<ul class="row">
+					<li class="col-xs-4">
+						<img alt="GitHub" class="img-responsive img-rounded socialIcons" src="assets/images/github.svg" />
 					</li>
-					<li>
-						<div class="socialIconsContainer" onClick="location.href='https://www.linkedin.com/in/michaelhrogers'">
-							<img alt="LinkedIn" class="socialIcons" src="assets/images/linkedin.svg" />
-						</div>
+					<li class="col-xs-4">
+						<img alt="LinkedIn" class="img-responsive img-rounded socialIcons" src="assets/images/linkedin.svg" />
 					</li>
-					<li>
-						<div class="socialIconsContainer" onClick="#'">
-							<img alt="StackOverflow" class="socialIcons" src="assets/images/stackoverflow.svg" />
-						</div>
+					<li class="col-xs-4">
+						<img alt="StackOverflow" class="img-responsive img-rounded socialIcons" src="assets/images/stackoverflow.svg" />
 					</li>
 				</ul>
 			</div>
 		</aside>
+		</div>
 	</div>
-	<footer>
-		<div class="footer">
+	<footer class="container">
+		<div class="">
 			&copy; Copyright 2016 | Michael Rogers
 		</div>
 	</footer>
